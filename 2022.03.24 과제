@@ -8,8 +8,8 @@ int main()
 
 	while (a <= num)
 	{
-		a = a + 2;
 		printf("%d", a);
+		a = a + 2;
 	}*/
 
 	// 문제 2
