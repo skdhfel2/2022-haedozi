@@ -1,0 +1,63 @@
+#include<stdio.h>
+int main()
+{
+	// 문제 1
+	/*int num, a =2;
+	printf("정수를 입력해 주세요 : ");
+	scanf_s("%d", &num);
+
+	while (a <= num)
+	{
+		a = a + 2;
+		printf("%d", a);
+	}*/
+
+	// 문제 2
+	/*int num, a = 2;
+	printf(" 정수를 입력해 주세요: ");
+	scanf_s("%d", &num);
+
+	while (a <= num)
+	{
+		printf("%d", a);
+		a = a * 2;
+	}*/
+
+	// 문제 3
+	/*int num, a = 0;
+	printf("양의 정수를 입력해 주세요: ");
+	scanf_s("%d", &num);
+
+	while (a < num)
+	{
+		printf("*\n\n");
+		a++;
+	}*/
+
+	// 문제 4
+	/*int num;
+	printf("몇단을 하신건가요?");
+	scanf_s("%d", &num);
+
+	for (int i = 1; i < 10; i++)
+	{
+		printf("%d * %d = %d\n", num, i, num * i);
+
+	}*/
+
+	// 문제 5
+	/*double grade;
+	printf("성적을 입력하세요: ");
+	scanf_s("%lf", &grade);
+
+	if (grade >= 4)
+		printf("장학금을 받아가세요.\n");
+	else if (grade >= 3)
+		printf("다음 학기를 준비하세요.\n");
+	else if (grade >= 2)
+		printf("계절 학기에 등록하세요.\n");
+	else
+		printf("다음 학기에 재수강 하세요.\n");*/
+
+	return 0;
+}
